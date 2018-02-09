@@ -1,8 +1,0 @@
-package file
-
-import (
-  "errors"
-)
-
-
-
