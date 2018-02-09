@@ -15,7 +15,7 @@
   },
   "log_config": {
     "logLevel": "INFO",
-    "dir": "../../logs",
+    "dir": "../logs",
     "filename": "monitor.log",
     "consoleAppender": true,
     "dailyRolling": true,

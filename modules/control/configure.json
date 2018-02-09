@@ -20,7 +20,7 @@
   "cookie_domain": ".crazycdn.cn",
   "log_config": {
     "logLevel": "INFO",
-    "dir": "../../logs",
+    "dir": "../logs",
     "filename": "control.log",
     "consoleAppender": true,
     "dailyRolling": true,

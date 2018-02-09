@@ -26,8 +26,8 @@
     }
   },
   "log_config": {
-    "logLevel": "DEBUG",
-    "dir": "../../logs",
+    "logLevel": "INFO",
+    "dir": "../logs",
     "filename": "ys_agent.log",
     "consoleAppender": true,
     "dailyRolling": true,

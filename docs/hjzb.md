@@ -1,4 +1,5 @@
 # 环境准备
+使用linux centos操作系统，并安装以下应用。
 
 ## 1. golang
 * 安装golang，版本 >= 1.8

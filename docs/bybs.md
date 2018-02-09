@@ -12,7 +12,7 @@ go install
 # configure.json配置文件内容可自定义
 cp ./configure.json $OPEN_OPERATION_ROOT/ys_agent/
 cp $GOBIN/ys_agent $OPEN_OPERATION_ROOT/ys_agent/
-# 启动
+# root权限启动
 nohup $OPEN_OPERATION_ROOT/ys_agent/ys_agent &
 ```
 
