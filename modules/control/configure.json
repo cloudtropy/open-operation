@@ -1,0 +1,29 @@
+{
+  "http_listen_port": 10101,
+  "mysql": {
+    "host": "127.0.0.1:3306",
+    "username": "",
+    "passwd": "",
+    "database": "operation"
+  },
+  "redis": {
+    "host": "127.0.0.1:6379"
+  },
+  "monitor": {
+    "host": "http://127.0.0.1:10102",
+    "rpc_host": "127.0.0.1:10103"
+  },
+  "user": {
+    "login_timeout_min": 30,
+    "remember_timeout_day": 3
+  },
+  "cookie_domain": ".crazycdn.cn",
+  "log_config": {
+    "logLevel": "INFO",
+    "dir": "../../logs",
+    "filename": "control.log",
+    "consoleAppender": true,
+    "dailyRolling": true,
+    "maxFileCount": 7
+  }
+}

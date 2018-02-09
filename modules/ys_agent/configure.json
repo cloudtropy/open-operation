@@ -1,0 +1,36 @@
+{
+  "listen_port": 10105,
+  "host_id_path": "/etc/host_id",
+  "monitor_srv": {
+    "addrs": [
+      "http://127.0.0.1:10102"
+    ],
+    "rpc_host": "127.0.0.1:10103",
+    "timeout": 1000
+  },
+  "reports": {
+    "HOST_INFO": {
+      "enabled": true,
+      "path": "/host/info",
+      "interval": 1800
+    },
+    "MONITOR": {
+      "enabled": true,
+      "path": "/monitor",
+      "interval": 60
+    },
+    "HEARTBEAT": {
+      "enabled": true,
+      "path": "/host/heartbeat",
+      "interval": 5
+    }
+  },
+  "log_config": {
+    "logLevel": "DEBUG",
+    "dir": "../../logs",
+    "filename": "ys_agent.log",
+    "consoleAppender": true,
+    "dailyRolling": true,
+    "maxFileCount": 7
+  }
+}

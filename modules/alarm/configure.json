@@ -1,0 +1,8 @@
+{
+  "self": {
+    "host": "http://alert.cloudtropy.com:10010",
+    "ext_host": "http://alert.cloudtropy.com",
+    "listen_port": 10010
+  },
+  "cookie_domain": ".crazycdn.cn"
+}
